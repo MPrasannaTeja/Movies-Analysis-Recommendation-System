@@ -24,14 +24,13 @@ This project performs a detailed analysis of IMDB movies data and develops a rec
    ```
 
 ## Usage
-1)Data Loading into MySQL
-2)Data Analysis and Recommendation
-   i)Run the data analysis script:
-      ```bash
-      spark-submit data_analysis.py
-      ```
-   ii)Run the recommendation system:
-      ```bash
-      python recommendation_system.py --input <input_movie> --output <output_file>
-      ```
+Data Analysis and Recommendation
+Run the data analysis script:
+```bash
+spark-submit data_analysis.py
+```
+Run the recommendation system:
+```bash
+python recommendation_system.py --input <input_movie> --output <output_file>
+```
    
