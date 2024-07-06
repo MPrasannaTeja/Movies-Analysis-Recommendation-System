@@ -13,8 +13,25 @@ This project performs a detailed analysis of IMDB movies data and develops a rec
    git clone https://github.com/YOUR-USERNAME/Movies-Analysis-Recommendation-System.git
    cd Movies-Analysis-Recommendation-System
    ```
-   **Set Up Virtual Environment:**
+ 2. **Set Up Virtual Environment:**
    ```bash
    python3 -m venv env
    source env/bin/activate  # On Windows use `env\Scripts\activate`
    ```
+3. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+Data Loading into MySQL
+Data Analysis and Recommendation
+Run the data analysis script:
+```bash
+spark-submit data_analysis.py
+```
+Run the recommendation system:
+```bash
+python recommendation_system.py --input <input_movie> --output <output_file>
+```
+   
