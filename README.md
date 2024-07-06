@@ -6,6 +6,14 @@ A comprehensive analysis and recommendation system for IMDB movies data from 198
 
 This project performs a detailed analysis of IMDB movies data and develops a recommendation system. It leverages Spark for data processing and MySQL for data storage.
 
+## Dashboard
+
+![Dashboard](Images/Dashboard.png)
+
+## Streamlit Interface
+
+![Streamlit Interface](Images/Streamlit_Interface.png)
+
 ## Installation
 
 1. **Clone the Repository:**
